@@ -1,0 +1,312 @@
+body {
+	margin:0px auto;
+	padding:0;
+	font-family: "helvetica";
+    font-size: 15px;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+
+/** element defaults **/
+table {
+	width:100%;
+	text-align:left;
+}
+th, td {
+	padding:5px 10px;
+}
+
+
+}
+code, blockquote {
+	display:block;
+	border-left:5px solid #ddd;
+	padding:10px;
+	margin-bottom:20px;
+}
+
+
+a:focus {
+	outline:none;
+}
+a.button { 
+    background-color: #80B763;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 22px;
+    font-size: 0.8em;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+a.button:hover {
+	background-color: #669D48;
+}
+
+
+fieldset {
+	display:block;
+	border:none;
+	border-top:1px solid #e0e0e0;
+}
+fieldset legend {
+	font-weight:bold;
+	padding-right:10px;
+	color:#999;
+}
+fieldset form {
+	padding-top:15px;
+}
+fieldset p label {
+	float:left;
+	width:150px;
+	font-family: "Source Sans Pro","sans-serif";
+}
+fieldset form input, fieldset form select, fieldset form textarea {
+	padding:5px;
+	color:#333333;
+	font-size:13px;
+	font-family: "Source Sans Pro","sans-serif";
+	border:1px solid #ddd;
+}
+fieldset form input.formbutton {
+border:none;
+    background-color: #80B763;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 22px;
+    font-size: 0.8em;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+#acronym {
+    text-align: center;
+}
+#p {
+    color: maroon;
+    border-bottom: 25px solid white;
+	border-top: 50px solid white;
+}
+#e {
+    color: red;
+    border-bottom: 25px solid white;
+	border-top: 25px solid white;
+}
+#a {
+    color: grey;
+    border-bottom: 25px solid white;
+	border-top: 25px solid white;
+}
+#c {
+    color: navy;
+    border-bottom: 25px solid white;
+	border-top: 25px solid white;
+}
+#em {
+    color: green;
+    border-bottom: 25px solid white;
+	border-top: 25px solid white;
+}
+h1 {
+	font-size:60px;
+    color:#222;
+    text-align: center;
+}
+h2 {
+	color:#222;
+	font-size:1.8em;
+	font-weight:bold;
+	padding:0 0 5px;
+	margin:0;
+}
+h3 {
+	color:#222;
+	font-size:1.6em;
+	padding-bottom:10px;
+}
+h4 {
+	padding-bottom:10px;
+	font-size:1.4em;
+
+}
+h5 {
+	padding-bottom:10px;
+	font-size:1.2em;
+	color:#666666;
+}
+ul, ol {
+	margin:0 0 35px 35px;
+}
+li {
+	padding-bottom:5px;
+}
+
+
+/** wrapper **/
+div#wrapper {
+	margin:0px auto;
+	padding:0;
+}
+
+.width {
+	width:auto;
+	margin: 0 auto;
+}
+
+
+
+
+/** header **/
+header {
+	padding:30px 17px 30px;
+	margin:0 auto;
+}
+header h1 { 
+	text-align: right;
+}
+
+header h1 a,
+header h1 a:hover,
+header h1 a:visited {
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	letter-spacing:-2px;
+}
+
+header h2 {
+	color:#C4DDB6;
+	text-align: right;
+	font-size: 0.8em;
+	font-weight: normal;
+	padding-bottom:0;
+	letter-spacing:0;
+}
+
+
+/** body **/
+section#body {
+	padding: 0;
+	background: #0000ff;
+}
+
+
+/** content+sidebar styles **/
+section#content {
+	margin-left: 250px;
+	padding: 20px;
+	background-color: white;
+}
+.column-left {
+	float:left;
+}
+.column-right {
+	float:right;
+}
+aside#sidebar {
+	width:250px;
+	position: fixed;
+}
+nav#mainnav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav#mainnav li {
+	padding:0;
+	border-bottom: 45px solid #0000ff;
+	border-top: 45px solid #0000ff;
+}
+
+nav#mainnav li.selected-item a,
+nav#mainnav li.selected-item a:hover {
+	color:blue;
+	font-weight:bold;
+	background: #fff; 
+}
+nav#mainnav li a:hover {
+	background:white;
+    color: blue;
+}
+nav#mainnav li a {
+	color: white;
+	display: block;
+	padding: 40px 40px;
+	text-align: right;
+	font-weight:  bold;
+	text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+article {
+    padding: 10px 10px 30px;
+	font-size: 1.2em;
+border-bottom: 1px solid #eee;
+ }
+
+article h2 {
+    padding-bottom: 0;
+	line-height: 1.1em;
+	letter-spacing: -2px;
+   font-size: 2.5em;
+}
+
+
+
+
+
+
+/** footer **/
+footer {
+	padding:20px 0px;
+}
+
+footer p {
+	color:#666;
+	margin:0;
+	font-size:0.8em;
+	text-align: center;
+}
+footer p a {
+	color:#666;
+	font-weight:bold;
+	text-decoration:none;
+	border-bottom:1px solid #999;
+}
+footer p a:hover { color:#333; border-bottom-color: #333; }
+    
+
+/** clear fix **/
+.clear:after {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clear {
+	clear: both;
+	display: inline-block;
+}
+.clear {
+	display: block;
+}
