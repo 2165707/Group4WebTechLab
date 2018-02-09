@@ -1,0 +1,207 @@
+@keyframes moveleft{
+	0%{margin-left:1350px;}
+	100%{}
+}
+
+@keyframes movedown{
+	0%{margin-top:-1000px;}
+	100%{}
+}
+
+html {
+	box-sizing:  border-box;
+	
+}
+
+body {
+	justify-content: space-around;
+	background-color: #fff;
+	width:800px; 
+	margin:auto; 
+	padding:0;
+	vertical-align: center;
+}
+
+#ban {
+	width: 400px;
+	height: 80px;
+    display: block;
+    margin-left: -55%;
+    animation: moveleft 4s;
+}
+
+
+
+header {
+	position: sticky;
+	top: 0;
+    height: 80px;
+    background-color: none;
+    box-sizing: border-box;
+	color: #555;
+}
+
+
+
+h1{
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Book Antiqua;
+}
+section {
+	margin-top: 100px;
+}
+
+article {
+	margin-top: 100px;
+}
+.post-body img {
+	display: block;
+}
+
+#JCamp{
+
+	margin:auto;
+	width: 800px;
+	height: 400px;
+}
+
+nav.links{
+	width:100px;
+    position: sticky;
+    margin-top: 10%;
+    text-align: left;
+    font-size: 25px;
+    font-family: bookman, serif;
+    font-weight: bold;
+	top: 0;
+	margin-left:-15%;
+	animation:movedown 3s;
+}
+#zone-guard{
+
+	margin:auto;
+	width: 800px;
+	height: 300px;
+}
+
+
+nav.links a{
+	display: block;
+	text-decoration: none;
+	color: grey;
+
+}
+
+#cjh-stall{
+
+	margin: auto;
+	width: 800px;
+	height: 400px;
+}
+
+nav.links a:hover{
+	display: inline;
+	border-bottom: 5px solid black;
+	margin-right: 30px;
+	padding: 1px;
+	color: black;
+}
+
+a.nav-link {
+	text-decoration: none;
+	color: black;
+	display: inline;
+
+}
+
+ul.nav-head {
+    display: block;
+    list-style: none;
+    color: white;
+    font-size: 0.85em;
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+
+ul.nav-email li{
+	display: block;
+}
+
+footer.container {
+	border-top: 1px solid;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+iframe{
+	overflow: hidden;
+	width: 800px;
+	height: 500px;
+	border-style: none;
+	margin: 0 auto;
+	display: block;
+	top: 80px;
+}
+
+nav.i-tag ul{
+	text-align: left;
+	margin: 0;
+	list-style: none;
+}
+
+a.i-nav-link {
+	display: block;
+    color: #fff;
+    background: #4f4e49;
+    padding: 6px 25px 8px;
+    width: 170px;
+    border-style: solid;
+    text-decoration: none;
+
+}
+
+nav.i-tag a:hover{
+	background-color: #974b2f;
+}
+
+img.i-pic { 	
+	margin: 0;
+	
+}
+
+address.i-add {
+	top: 40px;
+	position: initial;
+}
+
+h1.i-h1 {
+	text-transform: uppercase;
+}
+
+#nick{
+	float: top;
+	margin: auto;
+	height: 250px;
+	width: 200px;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+p {
+	font-family: times new roman, sans;
+	font-size: 18px;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h2{
+	font-family: Courier new, sans;
+}
