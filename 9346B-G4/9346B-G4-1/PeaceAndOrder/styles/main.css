@@ -19,6 +19,7 @@ section #content {
 	padding: 20px;
 	background-color: #f1f2d2;
     color: green;
+    text-shadow: 2px 2px 4px white;
 }
 
 aside#sidebar {
@@ -86,6 +87,7 @@ nav#main li a {
 	height: 30%;
 	margin-top: 40px;
 	margin-left: 35%;
+    border-radius: 45%;
 }
 
 .leftnote_about {
