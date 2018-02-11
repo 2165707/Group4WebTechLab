@@ -1,13 +1,12 @@
-@keyframes moveleft{
+@keyframes moveleft {
 	0%{margin-left:1350px;}
-	100%{}
+	100%{margin-right: 10%;}
 }
 
-@keyframes moveright{
+@keyframes moveright {
 	0%{margin-left:-1000px;}
-	100%{}
+	100%{margin-top: 10%;}
 }
-
 
 body {
 	justify-content: space-around;
@@ -33,16 +32,16 @@ header {
 	position: sticky;
 	top: 10px;
     height: 10px;
-    background-color: none;
     box-sizing: border-box;
 	color: #555;
 }
 
-h1{
+
+h1 {
 	display: block;
 	font-size: 3em;
 	font-weight: bold;
-	font-family: Book Antiqua;
+	font-family: "Book Antiqua";
 }
 
 section {
@@ -57,7 +56,7 @@ article {
 	display: block;
 }
 
-#JCamp{
+#JCamp {
 
 	margin:auto;
 	width: 800px;
@@ -65,18 +64,17 @@ article {
 	transition: transform .3s;
 }
 
-#JCamp:hover{
+#JCamp:hover {
 	transform: scale(1.2);
-	cursor: pointer;
 }
 
-nav.links{
+nav.links {
 	width:10%;
     position: sticky;
     margin-top: 10%;
     text-align: left;
     font-size: 25px;
-    font-family: garamond ;
+    font-family: garamond;
     font-weight: bold;
 	margin-left:-40%;
 	border-style: groove;
@@ -88,47 +86,42 @@ nav.links{
 	padding-top: 10px;
 	white-space: nowrap;
 	background-color: #797D7F;
-	border-color: none;
 	animation:moveright 3s;
 }
 
-#zone-guard{
+#zone-guard {
 	margin:auto;
 	width: 800px;
 	height: 300px;
 	transition: transform .2s;
 }
 
-#zone-guard:hover{
+#zone-guard:hover {
 	transform: scale(1.1);
-	cursor: pointer;
 }
 
-nav.links a{
+nav.links a {
 	display: inline-block;
 	text-decoration: none;
 	color: #FDFEFE;
 }
 
-#cjh-stall{
+#cjh-stall {
 	margin: auto;
 	width: 800px;
 	height: 400px;
-	padding: auto;
 	transition: transform .5s;
 }
 
-#cjh-stall:hover{
+#cjh-stall:hover {
 	transform: scale(1.2);
-	cursor: pointer;
 }
 
-nav.links a:hover{
+nav.links a:hover {
 	display: inline;
 	margin-right: 20px;
 	padding: 1px;
 	color: black;
-	cursor: pointer;
 }
 
 a.nav-link {
@@ -149,7 +142,6 @@ ul.nav-head {
 
 ul.nav-email li{
 	display: block;
-	padding: 0 auto;
 }
 
 footer.container {
@@ -174,13 +166,13 @@ a.i-nav-link {
     text-decoration: none;
 }
 
-nav.i-tag a:hover{
+nav.i-tag a:hover {
 	background-color: #974b2f;
-	cursor: pointer;
 }
 
 img.i-pic { 	
 	margin: 0;
+	
 }
 
 address.i-add {
@@ -192,7 +184,7 @@ h1.i-h1 {
 	text-transform: uppercase;
 }
 
-#nick{
+#nick {
 	display: block;
 	float: left;
 	width: 20%;
@@ -202,27 +194,27 @@ h1.i-h1 {
 
 h3 {
 	font-size: 30px;
-	font-family: Lucida Sans Unicode, sans-serif;
+	font-family: "Lucida Sans Unicode", sans-serif;
 }
 
 p {
 	text-align: justify;
-	font-family: times new roman, sans;
+	font-family: "times new roman", sans;
 	font-size: 20px;
 	margin-left: auto;
     margin-right: 150px;
     padding-top: 15px;
-    padding-left: 40px;
+   	padding-left: 40px;
     padding-right: 40px;
     position: relative;
 }
 
-h2{
+h2 {
 	font-size: 30px;
-	font-family: Courier new, sans;
+	font-family: "Courier new", sans;
 }
 
-p.copyright{
+p.copyright {
 	text-align: center;
 	font-size: 25px;
 	font-family: arial ;
