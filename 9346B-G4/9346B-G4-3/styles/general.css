@@ -95,4 +95,38 @@ a:hover{
 
 }
 
+#center-container{
+	background: url("images/green.jpg");
+	padding-top: 200px;
+	padding-bottom: 400px;
+	margin-right: -200px;
+	margin-left: -200px;
+	text-align: center;
+
+}
+
+#center-qoute{
+	color: white;
+	font-family: "arial";
+	font-size: 30px;
+	margin-left: 500px;
+	margin-right: 500px;
+	background: black;
+	padding-top: 50px;
+	padding-bottom: 150px;
+
+
+}
+
+#button-container{
+	font-size: 40px;
+	margin-left: 800px;
+	margin-right: 800px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: -600px;
+	margin-bottom: 400px;
+	
+}
+
 
