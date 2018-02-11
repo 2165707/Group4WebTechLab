@@ -3,8 +3,8 @@
 	100%{}
 }
 
-@keyframes movedown{
-	0%{margin-top:-1000px;}
+@keyframes moveright{
+	0%{margin-left:-1000px;}
 	100%{}
 }
 
@@ -87,7 +87,7 @@ nav.links{
 	white-space: nowrap;
 	background-color: #797D7F;
 	border-color: none;
-	animation:movedown 3s;
+	animation:moveright 3s;
 }
 #zone-guard{
 
