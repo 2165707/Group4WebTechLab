@@ -16,9 +16,9 @@ body {
 	min-width: 10%;
 	height: auto;
 	margin: auto; 
+	margin-left: 30%;
 	padding:0;
 	vertical-align: center;
-	display: run-in;
 }
 
 #ban {
@@ -29,9 +29,8 @@ body {
     animation: moveleft 4s;
 }
 
-
-
 header {
+
 	position: sticky;
 	top: 10px;
     height: 10px;
@@ -43,7 +42,7 @@ header {
 
 h1{
 	display: block;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
 	font-family: Book Antiqua;
 }
@@ -147,6 +146,7 @@ ul.nav-head {
 
 ul.nav-email li{
 	display: block;
+	padding: 0 auto;
 }
 
 footer.container {
@@ -202,27 +202,38 @@ h1.i-h1 {
 }
 
 #nick{
-	float: top;
-	margin: auto;
-	height: 250px;
-	width: 200px;
-	background-color: none;
+	display: block;
+	float: left;
+	width: 20%;
+	border-radius: 40px;
+	padding: 20px;
+
+
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 30px;
 	font-family: Lucida Sans Unicode, sans-serif;
 }
 
 p {
+	text-align: justify;
 	font-family: times new roman, sans;
-	font-size: 18px;
+	font-size: 20px;
 	margin-left: auto;
     margin-right: 150px;
     padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;
+    position: relative;
 }
 h2{
+	font-size: 30px;
 	font-family: Courier new, sans;
+}
+
+p.copyright{
+	text-align: center;
+	font-size: 25px;
+	font-family: arial ;
 }
