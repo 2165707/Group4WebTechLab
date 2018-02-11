@@ -12,17 +12,20 @@
 body {
 	justify-content: space-around;
 	background-color: #F0F3F4;
-	width:800px; 
-	margin:auto; 
+	width:50%;
+	min-width: 10%;
+	height: auto;
+	margin: auto; 
 	padding:0;
 	vertical-align: center;
+	display: run-in;
 }
 
 #ban {
 	width: 400px;
 	height: 80px;
     display: block;
-    margin-left: -55%;
+    margin-left: -50%;
     animation: moveleft 4s;
 }
 
@@ -30,13 +33,12 @@ body {
 
 header {
 	position: sticky;
-	top: 0;
-    height: 80px;
+	top: 10px;
+    height: 10px;
     background-color: none;
     box-sizing: border-box;
 	color: #555;
 }
-
 
 
 h1{
@@ -64,18 +66,18 @@ article {
 	transition: transform .3s;
 }
 #JCamp:hover{
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 nav.links{
-	width:100px;
+	width:10%;
     position: sticky;
     margin-top: 10%;
     text-align: left;
     font-size: 25px;
     font-family: garamond ;
     font-weight: bold;
-	margin-left:-50%;
+	margin-left:-40%;
 	border-style: groove;
 	border-width: 0px;
 	border-radius: 5px;
@@ -93,6 +95,10 @@ nav.links{
 	margin:auto;
 	width: 800px;
 	height: 300px;
+	transition: transform .2s;
+}
+#zone-guard:hover{
+	transform: scale(1.1);
 }
 
 
@@ -108,6 +114,11 @@ nav.links a{
 	margin: auto;
 	width: 800px;
 	height: 400px;
+	padding: auto;
+	transition: transform .5s;
+}
+#cjh-stall:hover{
+	transform: scale(1.2);
 }
 
 
@@ -207,7 +218,7 @@ p {
 	font-family: times new roman, sans;
 	font-size: 18px;
 	margin-left: auto;
-    margin-right: auto;
+    margin-right: 150px;
     padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;
