@@ -1,6 +1,6 @@
 header{
      position: static;
-     background-color: #213603;
+     background-color: hsla(120, 100%, 25%, 0.3);
      text-align: center;
      font-size: 30px;
      padding-top: 20px;
@@ -8,8 +8,32 @@ header{
      margin-top: -100px;
      color: white;
      font-family:nova;
-     max-width: 100%;
+    
 }
+
+h1{
+    font-size: 55px;
+    font-family: 'Nova';
+    color: #008000;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+    text-align: center;
+  	animation: neon2 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon2 {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+  }
+}
+h2{
+	color: black;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    text-align: center;
+     animation: mymove 5s infinite;
+}
+
  .logo{
      background-image: url("logo/gss.png");
      background-repeat: no-repeat;
@@ -23,24 +47,32 @@ header{
      max-width: 100%;
 }
  .navigation{
-     text-align: center;
-     background-color: #448024;
+    text-align: center;
+     background-color: hsla(120, 60%, 70%, 0.3);
      margin-top: -22px;
      padding-bottom: .02%;
      padding-top: .02%;
-     word-spacing: 20px;
+     word-spacing: 30px;
      font-family: tahoma;
+     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 }
+
+
+
+
+
  body{
-     background-image: url("background.jpg");
-     background-position: center;
-}
+    background-color: #222222;
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;}
+ 
  .box{
-     background-position: center;
-     padding-top: 50px;
-     padding-left: 5%;
-     padding-right: 5%;
-     font-family: tahoma;
+
+    background-position: center;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-indent: 10px;
+    font-family: tahoma;
 }
  footer{
      background-color: black;
@@ -50,20 +82,29 @@ header{
      text-align: center;
      font-size: 20px;
      font-family: calibri;
+     opacity: .7;
 }
  a{
-     text-decoration: none;
-     color: white;
+    color: black;   
+  text-decoration: none;
+  transition: all 0.5s;
+
 }
  a:hover{
-     color: #bedda6;
+ 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+    
 }
  #center-button{
      text-align: center;
+     font-size: 55px;
+    font-family: 'Nova';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00;
+    text-align: center;
 }
 
  .container{
-     background-color: #f2f2d5;
+     background-color: #DCDCDC;
      background-position: center;
      margin:0px 10% 0px;
      padding-bottom: 50%;
@@ -75,13 +116,13 @@ header{
 
 }
 #center-container{
-	background: url("images/green.jpg");
 	padding-top: 200px;
 	padding-bottom: 400px;
 	margin-right: -200px;
 	margin-left: -200px;
 	text-align: center;
 }
+
 
 #center-qoute{
 	color: white;
@@ -112,12 +153,18 @@ header{
      background-size: 100px 100px;
 
 }
+#seed:hover{
+    transform: scale(1.1);
+}
 
  #bin{
      margin-top: -430px;
      margin-left: 550px;
 }
 
+#bin:hover{
+    transform: scale(1.1);
+}
 
  h4{
      color:#2d2d2d;
@@ -138,9 +185,9 @@ header{
 	font-family: tahoma;
 	padding-left:30px;
 	padding-right: 30px;
-	border: 1px solid  #213603;
 	border-radius: 4px;
  }
+
 
 
 #header-container{
@@ -154,10 +201,10 @@ header{
 	padding-top: 50px;
     margin-top: -300px;
     margin-left: 150px;
-    background-size: 100px 100px;
 }
 
-}
+
+
 
 
 .bold{
@@ -184,12 +231,16 @@ header{
 
 }
 
+
+
 .album-container2{
 	margin-top: -239px;
     margin-left: 600px;
     background-size: 100px 100px;
 
 }
+
+
 
 
 
