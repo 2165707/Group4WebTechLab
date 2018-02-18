@@ -218,6 +218,15 @@ img#cjh-stall:hover {
 
 img#nick{
 	box-shadow: 10px 20px 36px #888888;
+	border-radius: 5%;
+	margin: auto;
+	transition: transform .5s;
+	box-shadow: 10px 20px 36px #888888;
+	transition: transform .3s;
+}
+
+img#nick:hover{
+	transform: scale(1.2);
 }
 
 footer.container{
