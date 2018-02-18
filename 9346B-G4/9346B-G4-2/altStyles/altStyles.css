@@ -94,7 +94,7 @@ h2#place-cjh{
 
 p#cjh-word{
 	font-size: 1.5em;
-	font-style: bold;
+	font-weight: bold;
 	color: #0d0d0d;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -102,7 +102,7 @@ p#cjh-word{
 
 p#place-word{
 	font-size: 1.5em;
-	font-style: bold;
+	font-weight: bold;
 	color: #0d0d0d;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -144,20 +144,20 @@ h3#inclusion-h{
 
 section#history p{
 	font-size: 1.5em;
-	font-style: bold;
+	font-weight: bold;
 	color: #0d0d0d;
 }
 
 p#question-word{
 	font-size: 1.5em;
-	font-style: bold;
+	font-weight: bold;
 	color: #0d0d0d;
 	padding-bottom: 20px;
 }
 
 div#inclusion p{
 	font-size: 1.5em;
-	font-style: bold;
+	font-weight: bold;
 	color: #0d0d0d;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -242,4 +242,13 @@ p.copyright {
 	text-align: center;
 	font-size: 25px;
 	font-family: arial ;
+}
+
+/*about html */
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
