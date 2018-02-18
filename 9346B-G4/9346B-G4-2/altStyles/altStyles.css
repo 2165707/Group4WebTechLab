@@ -1,3 +1,7 @@
+html{
+	font-family: "Comic Sans MS";
+}
+
 /* HEAEDER */
 header {
     background-color: #333;
@@ -29,10 +33,9 @@ a.nav-link{
     color: white;
     text-align: center;
     padding: 14px 16px;
+    font-size: 30px;
     text-decoration: none;
-    font-size: 40px;
-    text-shadow: 3px 3px 2px #0000ff;
-    transition: border-bottom 3s ease-in-out;
+    transition: border-bottom 3s ease-out;
 }
 
 a:hover{
@@ -41,118 +44,124 @@ a:hover{
 
 /* Body */
 body{
-	background-color: grey;
+	background-image: url(concrete-texture.png);
 }
+
 nav.bgContainer{
 	width:65%;
 	text-align: center;
 	height: auto;
-	margin: auto; 
+	margin: auto
 }
 
-/* neon */
-
-@-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
-  }
+section{
+	background-color: lightgrey;
 }
 
-@-webkit-keyframes neon2{
-  from {
-    text-shadow: 0 0 10px #00ffaa, 0 0 20px #00ffaa, 0 0 30px #00ffaa, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
-  }
-  to {
-    text-shadow: 0 0 5px #00ffaa, 0 0 10px #00ffaa, 0 0 15px #00ffaa, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
-  }
-}
 /* Index.html */
 
 h1#barangay{
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: lightgrey;
 	font-size: 5em;
 	font-family: "Times New Roman";
 	font-style: italic;
-	text-shadow: 3px 3px 2px #228DFF;
-	color: #0055b3;
-	animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-h1#barangay:hover{
-	animation: none;
+	text-shadow: 5px 5px 3px #fff;
+	color: black;
 }
 
 h3#cjh{
+	margin: 0;
+	padding-bottom: 50px;
 	font-size: 4em;
 	font-family: "Times New Roman";
 	font-style: italic;
-	text-shadow: 3px 3px 2px #228DFF;
-	color: #0055b3;
-	animation: neon2 1.5s ease-in-out infinite alternate;
+	text-shadow: 5px 5px 3px #fff;
+	color: black;
 }
 
 h2#place-cjh{
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	font-size: 3em;
-	font-family: "Times New Roman";
 	font-style: italic;
-	text-shadow: 3px 3px 2px #228DFF;
-	color: #0055b3;
-	animation: neon2 1.5s ease-in-out infinite alternate;
+	text-shadow: 5px 5px 3px #fff;
+	color: black;
 }
 
 p#cjh-word{
 	font-size: 1.5em;
-	font-family: "Times New Roman";
 	font-style: bold;
 	color: #0d0d0d;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 p#place-word{
 	font-size: 1.5em;
-	font-family: "Times New Roman";
 	font-style: bold;
 	color: #0d0d0d;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /*Advocacy html*/
 
 h1#history-h{
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: lightgrey;
 	font-size: 5em;
 	font-family: "Times New Roman";
 	font-style: italic;
-	text-shadow: 3px 3px 2px #228DFF;
-	color: #0055b3;
-	animation: neon1 1.5s ease-in-out infinite alternate;
+	text-shadow: 5px 5px 3px #fff;
+	color: black;
 }
 
 h2#question-h{
-	font-size: 3em;
+	margin: 0;
+	padding-bottom: 50px;
+	font-size: 4em;
 	font-family: "Times New Roman";
 	font-style: italic;
-	text-shadow: 3px 3px 2px #228DFF;
-	color: #0055b3;
-	animation: neon2 1.5s ease-in-out infinite alternate;
+	text-shadow: 5px 5px 3px #fff;
+	color: black;
 }
 
 h3#inclusion-h{
-	font-size: 3em;
+	margin: 0;
+	padding-bottom: 50px;
+	font-size: 4em;
 	font-family: "Times New Roman";
 	font-style: italic;
-	text-shadow: 3px 3px 2px #228DFF;
-	color: #0055b3;
-	animation: neon2 1.5s ease-in-out infinite alternate;
+	text-shadow: 5px 5px 3px #fff;
+	color: black;	
 }
 
 section#history p{
 	font-size: 1.5em;
-	font-family: "Times New Roman";
 	font-style: bold;
 	color: #0d0d0d;
 }
 
+p#question-word{
+	font-size: 1.5em;
+	font-style: bold;
+	color: #0d0d0d;
+	padding-bottom: 20px;
+}
 
+div#inclusion p{
+	font-size: 1.5em;
+	font-style: bold;
+	color: #0d0d0d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 /*Image in index.html*/
 
@@ -166,17 +175,13 @@ img#ban{
     width: 400px;
 }
 
-img#barangay {
-	font-size: 50px;
-}
-
-
 img#JCamp {
-	border-radius: 50%;
+	border-radius: 5%;
 	margin:auto;
 	width: 800px;
 	height: 400px;
 	transition: transform .3s;
+	box-shadow: 10px 20px 36px #888888;
 }
 
 img#JCamp:hover {
@@ -184,11 +189,12 @@ img#JCamp:hover {
 }
 
 img#zone-guard {
-	border-radius: 50%;
+	border-radius: 5%;
 	margin:auto;
 	width: 800px;
-	height: 300px;
+	height: 400px;
 	transition: transform .2s;
+	box-shadow: 10px 20px 36px #888888;
 }
 
 img#zone-guard:hover {
@@ -196,21 +202,31 @@ img#zone-guard:hover {
 }
 
 img#cjh-stall {
-	border-radius: 50%;
+	border-radius: 5%;
 	margin: auto;
 	width: 800px;
 	height: 400px;
 	transition: transform .5s;
+	box-shadow: 10px 20px 36px #888888;
 }
 
 img#cjh-stall:hover {
 	transform: scale(1.2);
 }
 
-footer.container {
-	border-top: 1px solid;
-	padding-top: 20px;
+/* Advocacy image*/
+
+img#nick{
+	box-shadow: 10px 20px 36px #888888;
+}
+
+footer.container{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
+	background-color: #333;
+	color: white;
+	margin: 0;
 }
 
 p.copyright {
