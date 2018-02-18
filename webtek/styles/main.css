@@ -1,0 +1,212 @@
+body {
+	margin:0px auto;
+	padding: 0;
+	font-family: "helvetica";
+    font-size: 15px;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+section #body {
+	padding: 0;
+}
+
+
+section #content {
+	margin-left: 250px;
+	padding: 20px; 
+	background-color: #87cefa;
+
+}
+
+
+aside#sidebar {
+	width:250px;
+	position: fixed;
+}
+nav#main ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav#main li {
+	padding:0;
+
+	border-top: 120px solid white;
+}
+
+nav#main li.selected-item a,
+nav#main li.selected-item a:hover {
+	color:white;
+	font-weight:bold;
+	background: #87cefa;
+
+}
+
+nav#main li a:hover {
+    color: pink;
+}
+nav#main li a {
+	color: #87cefa;
+	display: block;
+	padding: 40px 40px;
+	text-align: right;
+	font-weight:  bold;
+	text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aboutus h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}	
+
+.rightnote_peace h3 {
+    margin-top: 40px;
+}
+.left_note2 h3 {
+	margin-bottom: 40px;
+}
+.left_note2 h4 {
+	text-align: left;
+	margin-top: 10px;
+}
+.rightnote_advo h4 {
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.rightnote_advo h5 {
+	text-align: left;
+}
+.leftremind_advo img {
+	width: 50%;
+	height: 50%;
+}
+.rightremind_advo img {
+	width: 50%;
+	height: 50%;
+}
+.leftimg_about img {
+	width: 30%;
+	height: 30%;
+	margin-top: 40px;
+	margin-left: 35%;
+}
+.leftnote_about {
+	text-align: center;
+}
+.rightimg_about img {
+		width: 30%;
+	height: 30%;
+	margin-top: 40px;
+	float: right;
+	position: 
+}
+.msg_peace {
+    text-align: center;
+	margin-top: 20px;
+	background-color: pink;
+}
+.msg_peace h3 {
+	text-align: left;
+}
+.rightnote_about {
+	float: right;
+}	
+
+
+#banner { 
+    width: 1350px auto;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: pink;
+    position: relative;
+      padding-top: 5px;
+    padding-bottom: 5px;
+}
+#banner h1 {
+    font-size: 70px;
+}
+.rightnote_peace { 
+    background-color: pink;
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+
+
+}
+.rightnote_advo { 
+    background-color: pink;
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+}
+
+.leftnote_advo {
+    background-color: pink;
+    text-align: center;
+    width: 50%;
+	margin-top: 100px;
+
+}
+.leftimg_advo img {
+    width: 50%;
+    height: 50%;
+	padding-top: 40px;
+}
+.leftimg_peace img { 
+    width: 50%;
+    height: 50%;
+	padding-top: 40px;
+}
+.rightimg_advo img { 
+    width: 50%;
+    height: 50%;
+}
+.images1_peace {
+    width: 50s%;
+    align-content: center;
+    margin-left: 1%;
+    padding-top: 70px; auto;
+}
+
+.images1_peace img {
+    width: 24%;
+}
+.images2_peace {
+    width: 50s%;
+    align-content: center;
+    margin-left: 1%;
+    padding-top: 70px; auto;
+}
+
+.images2_peace img {
+    width: 49%;
+}
+.msg_peace {
+    text-align: center;
+}
+
+footer {
+	padding-top:50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
